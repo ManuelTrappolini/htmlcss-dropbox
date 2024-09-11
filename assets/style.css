@@ -84,7 +84,7 @@ body{
 }
 
 .btn-card{
-    padding: 10px 40px;
+    padding: 10px 20px;
 }
 
 .bg-lgblu{
@@ -110,13 +110,13 @@ body{
 .p-absolute{
     position: absolute;
     left: 0;
-    top: 110px;
+    top: 130px;
 }
 
 .p-absolute2{
     position: absolute;
     left: 40%;
-    top: 110px;
+    top: 130px;
 }
 
 .block{
@@ -129,6 +129,14 @@ body{
 
 .check{
     color: #1068ff;
+}
+
+.font-s15{
+    font-size: 15px;
+}
+
+.font-s20{
+    font-size: 20px;
 }
 /* #endregion utilities */
 
@@ -170,17 +178,13 @@ header a{
 
 /* #region main */
 h1{
-    font-size: 90px;
+    font-size: 70px;
     margin: 0 -1rem;
-}
-
-.font-s25{
-    font-size: 20px;
 }
 
 .jumbotron{
     width: 100%;
-    height: 880px;
+    height: 750px;
     padding-top: 50px;
 }
 
@@ -193,7 +197,7 @@ h1{
 }
 
 .arrow-down{
-    font-size: 50px;
+    font-size: 35px;
     padding-top: 35px;
 }
 
