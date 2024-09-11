@@ -4,12 +4,28 @@
     margin: 0;
     padding: 0;
 }
+
+.debug{
+    border: 1px dashed;
+}
 /* #endregion common */
 
 /* #region utilities */
 .container-lg{
     width: 80%;
     margin: auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-content{
+    justify-content: center;
+}
+
+.align-items{
+    align-items: center;
 }
 
 .container-sm{
@@ -32,9 +48,41 @@
     width: calc((100%/12)*8);
     padding: 0.5rem;
 }
+
+.col-2{
+    width: 50%;
+}
 /* #endregion utilities */
 
 /* #region header */
+header{
+    height: 80px;
+
+    ul>li{
+        list-style-type: none;
+        display: inline;
+        padding-left: 10px;
+        
+    }
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    width: 30%;
+}
+.left_menu{
+    padding-left: 30px;
+    width: 70%;
+    font-size: 20px;
+}
+
+.li:hover{
+    border-bottom: 1px solid black;
+}
 /* #endregion header */
 
 /* #region main */
