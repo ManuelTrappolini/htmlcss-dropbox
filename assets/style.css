@@ -83,8 +83,16 @@ body{
     background-color: #75a1e7;
 }
 
+.btn-card{
+    padding: 10px 40px;
+}
+
 .bg-lgblu{
     background-color: #b4d0e7;
+}
+
+.py-10{
+    padding: 10px 0;
 }
 
 .py-20{
@@ -113,6 +121,14 @@ body{
 
 .block{
     display: block;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.check{
+    color: #1068ff;
 }
 /* #endregion utilities */
 
@@ -172,7 +188,7 @@ h1{
     max-width: 100%;
 }
 
-div a{
+.try{
     text-decoration: none;
 }
 
@@ -205,13 +221,13 @@ input[type='radio'] {
 }
 
 .top-card{
-    border: 1px solid black;
+    border: 1px solid #d9d9da;
     padding:10px;
     text-align: center;
     margin-top: 100px;
 }
 .bottom-card{
-    border: 1px solid black;
+    border: 1px solid #d9d9da;
     padding-left: 30px;
 }
 
@@ -225,6 +241,13 @@ h3{
     font-weight: bold;
     padding-top: 20px;
 }
+
+.underline{
+    border-bottom: 1px dashed;
+    padding-bottom: 50px;
+
+}
+
 /* #endregion main */
 
 /* #region footer */
