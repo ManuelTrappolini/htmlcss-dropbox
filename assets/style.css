@@ -20,12 +20,20 @@
     display: flex;
 }
 
+.space-between{
+    justify-content: space-between;
+}
+
 .justify-content{
     justify-content: center;
 }
 
 .align-items{
     align-items: center;
+}
+
+.flex-end{
+    justify-content: end;
 }
 
 .container-sm{
@@ -52,12 +60,25 @@
 .col-2{
     width: 50%;
 }
+
+.btn{
+    border: 1px none;
+    padding: 5px 15px;
+    background-color: #0061ff;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #75a1e7;
+}
+
+
 /* #endregion utilities */
 
 /* #region header */
 header{
     height: 80px;
-
+    padding: 0 1rem;
     ul>li{
         list-style-type: none;
         display: inline;
@@ -74,13 +95,18 @@ header a{
 .logo{
     width: 30%;
 }
-.left_menu{
+
+.call-to-action{
+    width: 20%;
+}
+
+.left_menu, .right_menu{
     padding-left: 30px;
-    width: 70%;
+    width: 80%;
     font-size: 20px;
 }
 
-.li:hover{
+.a:hover{
     border-bottom: 1px solid black;
 }
 /* #endregion header */
