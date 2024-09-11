@@ -1,0 +1,44 @@
+/* #region common */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* #endregion common */
+
+/* #region utilities */
+.container-lg{
+    width: 80%;
+    margin: auto;
+}
+
+.container-sm{
+    width: 60%;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+}
+
+.col-4{
+    width: calc((100%/12)*4);
+    padding: 0.5rem;
+}
+
+.col-8{
+    width: calc((100%/12)*8);
+    padding: 0.5rem;
+}
+/* #endregion utilities */
+
+/* #region header */
+/* #endregion header */
+
+/* #region main */
+/* #endregion main */
+
+/* #region footer */
+/* #endregion footer */
