@@ -97,9 +97,17 @@ body{
     color: white;
 }
 
+.btn-empty{
+    border: 1px solid black;
+    padding: 5px 5px;
+}
 
 .btn:hover{
     background-color: #75a1e7;
+}
+
+.btn-empty:hover{
+    color: rgb(100, 97, 97);
 }
 
 .bg-lgblu{
@@ -120,6 +128,18 @@ body{
 
 .pb-35{
     padding-bottom: 35px;
+}
+
+.pb-20{
+    padding-bottom: 20px;
+}
+
+.pt-50{
+    padding-top: 50px;
+}
+
+.pl-20{
+    padding-left: 20px;
 }
 
 .p-relative{
@@ -283,6 +303,10 @@ h3{
     border-bottom: 1px dashed;
     padding-bottom: 50px;
 
+}
+
+.img-partner{
+    max-width: 100%;
 }
 
 /* #endregion main */
