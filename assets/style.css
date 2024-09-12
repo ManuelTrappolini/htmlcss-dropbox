@@ -106,7 +106,7 @@ body{
 
 .btn{
     border: 1px none;
-    padding: 5px 15px;
+    padding: px;
     background-color: #0061ff;
     color: white;
 }
@@ -320,6 +320,11 @@ h1{
     max-width: 100%;
 }
 
+.img-width2{
+    max-width: 48%;
+    max-height: 48%;
+}
+
 .try{
     text-decoration: none;
 }
@@ -390,11 +395,10 @@ h3{
     vertical-align: bottom;
 }
 
-.img-width190{
-    width: 190px;
-}
 
-.left{
+.left, .right{
+    display: flex;
+    align-items: ;
 }
 
 /* #endregion main */
