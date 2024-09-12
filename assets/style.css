@@ -436,5 +436,15 @@ footer{
         list-style-type: none;
     }
 }
+
+.d-none{
+    display: none;
+}
+
+.hoverfaq:hover + .d-none{
+        display: block;
+    }
+
+
 /* #endregion footer */
 
