@@ -94,6 +94,25 @@ body{
     padding: 0.5rem;
 }
 
+.wrapper{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    
+
+    
+}
+
+.margin-t5{
+    margin-top: 10px;
+}
+
+.col-7{
+    width: calc((100%/12)*7);
+    padding: 0.5rem;
+}
+
 .col-2{
     width: calc((100%/12)*2);
     padding: 0.5rem;
@@ -109,6 +128,7 @@ body{
     padding: px;
     background-color: #0061ff;
     color: white;
+    padding: 10px;
 }
 
 .btn-card{
