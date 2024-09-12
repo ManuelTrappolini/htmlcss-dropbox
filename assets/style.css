@@ -46,6 +46,18 @@ body{
     justify-content: end;
 }
 
+.flex-direction-col{
+    flex-direction: column;
+}
+
+.justify-self-end{
+    justify-self:flex-end;
+}
+
+.align-self-end{
+    align-self: flex-end;
+}
+
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -79,12 +91,15 @@ body{
     color: white;
 }
 
-.btn:hover{
-    background-color: #75a1e7;
+.btn-card{
+    padding: 10px 10px;
+    background-color: #0061ff;
+    color: white;
 }
 
-.btn-card{
-    padding: 10px 20px;
+
+.btn:hover{
+    background-color: #75a1e7;
 }
 
 .bg-lgblu{
@@ -101,6 +116,10 @@ body{
 
 .py-35{
     padding: 35px 0;
+}
+
+.pb-35{
+    padding-bottom: 35px;
 }
 
 .p-relative{
@@ -127,6 +146,10 @@ body{
     font-weight: bold;
 }
 
+.mg-30{
+    margin-top: 30px;
+}
+
 .check{
     color: #1068ff;
 }
@@ -139,12 +162,13 @@ body{
     font-size: 20px;
 }
 
-.pb-130{
-    padding-bottom: 160px;
+.h-92{
+    height: 92%;
 }
 
-.pb-170{
-    padding-bottom: 202px;
+.text-center{
+    text-align: center;
+
 }
 
 /* #endregion utilities */
@@ -177,7 +201,6 @@ header a{
 .left_menu, .right_menu{
     padding-left: 10px;
     width: 80%;
-    font-size: 20px;
 }
 
 .a:hover{
@@ -241,7 +264,8 @@ input[type='radio'] {
 }
 .bottom-card{
     border: 1px solid #d9d9da;
-    padding-left: 30px;
+    padding-left: 15px;
+    padding-left: 15px;
 }
 
 h3{
