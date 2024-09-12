@@ -321,8 +321,10 @@ h1{
 }
 
 .img-width2{
-    max-width: 48%;
+    max-width: 50%;
     max-height: 48%;
+    width: 50%;
+    object-fit: contain;
 }
 
 .try{
@@ -392,13 +394,12 @@ h3{
 
 .aspect-ratio{
     aspect-ratio: 1/1;
-    vertical-align: bottom;
 }
 
 
 .left, .right{
     display: flex;
-    align-items: ;
+    flex-wrap: wrap;
 }
 
 /* #endregion main */
