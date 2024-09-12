@@ -16,6 +16,12 @@ body{
 /* #endregion common */
 
 /* #region utilities */
+
+.container{
+    width: 100%;
+    margin: auto;
+}
+
 .container-lg{
     width: 55%;
     margin: auto;
@@ -50,6 +56,10 @@ body{
     flex-direction: column;
 }
 
+.flex-direction-row{
+    flex-direction: row;
+}
+
 .justify-self-end{
     justify-self:flex-end;
 }
@@ -69,18 +79,28 @@ body{
     padding: 0.5rem;
 }
 
+.col-12{
+    width: 100%;
+    padding: 0.5rem;
+}
+
 .col-8{
     width: calc((100%/12)*8);
     padding: 0.5rem;
 }
 
-.col-2{
+.col-6{
     width: 50%;
     padding: 0.5rem;
 }
 
+.col-2{
+    width: calc((100%/12)*2);
+    padding: 0.5rem;
+}
+
 .col-1{
-    width: 100%;
+    width: calc((100%/12)*1);
     padding: 0.5rem;
 }
 
@@ -114,6 +134,42 @@ body{
     background-color: #b4d0e7;
 }
 
+.bg-green{
+    background-color: #a2d39b;
+}
+
+.bg-bordeaux{
+    background-color: #61082b;
+}
+
+.bg-blue{
+    background-color: #339cc7;
+}
+
+.bg-lightred{
+    background-color: #e94748;
+}
+
+.bg-red{
+    background-color: #cb334a;
+}
+
+.bg-violet{
+    background-color: #3c4d90;
+}
+
+.bg-yellow{
+    background-color: #e9cd56;
+}
+
+.bg-lg2blue{
+    background-color: #b4c8d9;
+}
+
+.bg-grey{
+    background-color: #e2e2e3;
+}
+
 .py-10{
     padding: 10px 0;
 }
@@ -132,6 +188,10 @@ body{
 
 .pb-20{
     padding-bottom: 20px;
+}
+
+.pb-150{
+    padding-bottom: 150px;
 }
 
 .pt-50{
@@ -309,6 +369,17 @@ h3{
 
 }
 
+.aspect-ratio{
+    aspect-ratio: 1/1;
+    vertical-align: bottom;
+}
+
+.img-width190{
+    width: 190px;
+}
+
+.left{
+}
 
 /* #endregion main */
 
