@@ -178,8 +178,8 @@ body{
     font-size: 15px;
 }
 
-.font-s20{
-    font-size: 20px;
+.font-s35{
+    font-size: 35px;
 }
 
 .h-92{
@@ -240,7 +240,7 @@ h1{
     padding-top: 50px;
 }
 
-.img-customer-proposal{
+.img-width{
     max-width: 100%;
 }
 
@@ -262,8 +262,8 @@ p{
     padding-bottom: 60px;
 
 }
-h2{
-    font-size: 50px;
+.section-plans>h2{
+    font-size: 45px;
 }
 
 .radios { 
@@ -288,8 +288,12 @@ input[type='radio'] {
     padding-left: 15px;
 }
 
+.container-sm>h2{
+    font-size: 35px;
+}
+
 h3{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     padding-top: 30px;
 }
@@ -305,9 +309,6 @@ h3{
 
 }
 
-.img-partner{
-    max-width: 100%;
-}
 
 /* #endregion main */
 
