@@ -122,6 +122,18 @@ body{
     padding: 5px 5px;
 }
 
+.btn-try{
+    border: 1px solid;
+    padding: 5px 20px;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    color: black;
+
+    &:hover{
+        color: rgb(100, 97, 97);
+    }
+}
+
 .btn:hover{
     background-color: #75a1e7;
 }
@@ -196,6 +208,10 @@ body{
 
 .pt-50{
     padding-top: 50px;
+}
+
+.pb-50{
+    padding-bottom: 50px;
 }
 
 .pl-20{
