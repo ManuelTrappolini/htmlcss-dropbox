@@ -198,6 +198,10 @@ body{
     padding-bottom: 35px;
 }
 
+.pt-35{
+    padding-top: 35px;
+}
+
 .pb-20{
     padding-bottom: 20px;
 }
@@ -324,7 +328,7 @@ h1{
     max-width: 50%;
     max-height: 48%;
     width: 50%;
-    object-fit: contain;
+    object-fit: scale-down;
 }
 
 .try{
@@ -400,6 +404,14 @@ h3{
 .left, .right{
     display: flex;
     flex-wrap: wrap;
+}
+
+.bordertop{
+    border-top: 1px solid #727272;
+}
+
+.borderbottom{
+    border-bottom: 1px solid #727272;
 }
 
 /* #endregion main */
