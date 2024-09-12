@@ -182,6 +182,10 @@ body{
     background-color: #e2e2e3;
 }
 
+.bg-black{
+    background-color: black;
+}
+
 .py-10{
     padding: 10px 0;
 }
@@ -216,6 +220,14 @@ body{
 
 .pb-50{
     padding-bottom: 50px;
+}
+
+.pt-100{
+    padding-top: 100px;
+}
+
+.pb-100{
+    padding-bottom: 100px;
 }
 
 .pl-20{
@@ -417,5 +429,12 @@ h3{
 /* #endregion main */
 
 /* #region footer */
+
+footer{
+    color: white;
+    ul>li{
+        list-style-type: none;
+    }
+}
 /* #endregion footer */
 
