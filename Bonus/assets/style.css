@@ -548,17 +548,48 @@ header{
 
  .jumbotron{
 
-    height: 600px;
+    height: 550px;
 
     h1{
-        font-size: 30px;
+        font-size: 26px;
         height: 60px;
+    
     }
+
+    .btn{
+        font-size: 10px;
+    }
+
+    .py-35{
+        padding:0;
+    }
+
+    .btn{
+        display: inline-block;
+        padding: 6px 6px;
+    }
+
+    .font-s15, .arrow-down, .col-4>p{
+        font-size: 12px;
+    }
+
+    .p-absolute{
+        position: absolute;
+        left:0;
+        top: 50px;
+    }
+
+    .p-absolute2{
+        position: absolute;
+        left:20;
+        top: 50px;
+    }
+
+    
+    
+
 }
 
-.col-4>p{
-    font-size: 12px;
-}
 
 
 
