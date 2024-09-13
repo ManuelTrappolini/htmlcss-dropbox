@@ -98,9 +98,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: start;
-    
-
-    
 }
 
 .margin-t5{
@@ -515,6 +512,10 @@ footer{
     .col-md-6{
         width: 50%;
     }
+
+    .col-md-4{
+        width: calc(100%/12*4);
+    }
     
 } 
   /* #endmedia query max 568px */  
@@ -522,14 +523,54 @@ footer{
   /* #media query max 1024px */
 @media screen and (max-width: 1024px) { 
 
+    .col-lg-12{
+        width: 100%;
+    }
 
     .col-lg-6{
         width: 50%;
     }
 
-    .col-lg-12{
-        width: 100%;
-} 
+    .col-lg-4{
+        width: calc(100%/12*4);
+    }
+
+
+
+header{
+    ul>li{
+
+        display: flex;
+        margin-right: 50px;
+        font-size: 12px;
+    }
+}
+
+ .jumbotron{
+
+    height: 600px;
+
+    h1{
+        font-size: 30px;
+        height: 60px;
+    }
+}
+
+.col-4>p{
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 }
 /* #endmedia query max 1024px */
 
