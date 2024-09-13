@@ -583,16 +583,21 @@ header{
         position: absolute;
         left:20;
         top: 50px;
-    }
+    }   
+}
 
-    
-    
+.section-plans{
+    h2{
+        font-size: 25px;
+    }
 
 }
 
-
-
-
+.radios-lg{
+    display: flex;
+   align-items: baseline;
+    
+}
 
 
 
